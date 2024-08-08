@@ -1,7 +1,6 @@
-#!/usr/bin/python
+from aiohttp import ClientSession
 from aiobitget.client import Client
 from aiobitget.consts import GET, POST
-from aiohttp import ClientSession
 
 
 class BitgetApi(Client):
